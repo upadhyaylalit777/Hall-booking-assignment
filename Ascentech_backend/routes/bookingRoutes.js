@@ -22,19 +22,18 @@ router.post('/', async (req, res) => {
     }
 });
 
-// --- NEW PUT (Update) ROUTE ---
+
 router.put('/:id', async (req, res) => {
     try {
         const { id } = req.params;
         
-        // 1. Attempt to update the booking
-        // Sequelize's update returns an array: [numberOfAffectedRows]
+       
         const [updatedRows] = await Booking.update(req.body, {
             where: { id: id }
         });
 
         if (updatedRows > 0) {
-            // 2. If a row was updated, fetch the updated data to send back
+            
             const updatedBooking = await Booking.findByPk(id);
             res.json(updatedBooking);
         } else {
@@ -45,7 +44,7 @@ router.put('/:id', async (req, res) => {
     }
 });
 
-// DELETE booking
+
 router.delete('/:id', async (req, res) => {
     try {
         await Booking.destroy({ where: { id: req.params.id } });

@@ -9,16 +9,16 @@ const Booking = sequelize.define('Booking', {
     hall_name: { type: DataTypes.STRING, allowNull: false },
     purpose: { type: DataTypes.STRING },
     
-    // --- NEW FIELDS ADDED HERE ---
+  
     booking_type: { 
         type: DataTypes.STRING, 
-        allowNull: true // Set to true so old records don't break
+        allowNull: true 
     },
     time_slot: { 
         type: DataTypes.STRING, 
         allowNull: true 
     },
-    // -----------------------------
+    
 
     start_date: { type: DataTypes.DATEONLY },
     end_date: { type: DataTypes.DATEONLY },
