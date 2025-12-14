@@ -77,5 +77,4 @@ This is a full-stack booking application built with:
 ##  Features
 * Add, Edit, and Delete Bookings.
 * Validation for dates and numeric fields.
-* Responsive Table Layout.
-* Data persistence using MySQL.
+* Data persistence using postgres database.
