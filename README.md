@@ -5,7 +5,7 @@
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 This is a full-stack booking application built with:
 * **Frontend:** React (Vite)
 * **Backend:** Node.js, Express
@@ -15,7 +15,7 @@ This is a full-stack booking application built with:
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Prerequisites
 * Node.js installed
