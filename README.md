@@ -9,7 +9,7 @@
 This is a full-stack booking application built with:
 * **Frontend:** React (Vite)
 * **Backend:** Node.js, Express
-* **Database:** MySQL (Sequelize ORM)
+* **Database:** Postgres (Sequelize ORM)
 
 **Note:** As per assignment rules, no sensitive keys or URLs are hardcoded. You must set up environment variables to run this project.
 
@@ -19,13 +19,13 @@ This is a full-stack booking application built with:
 
 ### 1. Prerequisites
 * Node.js installed
-* MySQL installed and running
+* Postgres and Dbeaver Installed
 
 ### 2. Database Setup
-1.  Open your MySQL Workbench or Terminal.
-2.  Create a database named `booking_db`:
+1.  Open your dbeaver.
+2.  Connect to postgres instance Create a database named `bookings`:
     ```sql
-    CREATE DATABASE booking_db;
+    CREATE DATABASE bookings;
     ```
 
 ### 3. Backend Setup
