@@ -1,7 +1,7 @@
 
 
 ##  Project Walkthrough (Loom Video)
-**[PASTE YOUR LOOM VIDEO LINK HERE]**
+**https://www.loom.com/share/a8c7c3e3a73545f09ef3923f518e35f9**
 
 ---
 
