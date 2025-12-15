@@ -11,7 +11,6 @@ This is a full-stack booking application built with:
 * **Backend:** Node.js, Express
 * **Database:** Postgres (Sequelize ORM)
 
-**Note:** As per assignment rules, no sensitive keys or URLs are hardcoded. You must set up environment variables to run this project.
 
 ---
 
